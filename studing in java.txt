@@ -1,0 +1,562 @@
+							Java Fundamential
+							
+Java Architacture And Feture :-
+
+JAVA:-
+=> Java is oops(Object Oriented Programing ) Language.
+=> JAva plateform Independence Language.
+=> its invent 1995 (1.0 version)by sunmycro system
+=> Second Version 1996 (2.0 version)
+ 
+ 
+ FEATURE:
+ 
+ Secure(Security ) 
+ Robust(Powerfull)
+ FAst Development
+ simple
+ 
+ OOps(Abstraction,Class,Object,Incapulation,Polimorphism,Inheritance(Single inheritance,multiple inheritance,multilable,hybrid ,hirichay).
+ 
+ 
+ Multithread
+ 
+ 
+ 
+ 
+ 9) What is difference between c++ and Java ?
+Java                                                C++
+1) Java is platform independent                  C++ is platform dependent.
+2) There are no pointers in java                 There are pointers in C++.
+3) There is no operator overloading in java      C ++ has operator overloading.
+4) There is garbage collection in java           There is no garbage collection
+5) Supports multithreading                       Does’nt support multithreading
+6) There are no templates in java                 There are templates in c++
+7) There are no global variables in java          There are global variables in c++
+
+
+
+10) What is JIT compiler ?
+JIT compiler stands for Just in time compiler. JIT compiler compiles byte code in to executable code . 
+JIT a part of JVM .JIT cannot convert complete java program in to executable code it converts as and 
+when it is needed during execution.
+
+
+
+
+11) What is bytecode in java ?
+When a javac compiler compiler compiles a class it generates .class file. This .class file contains set of 
+instructions called byte code. Byte code is a machine independent language and contains set of 
+instructions which are to be executed only by JVM. JVM can understand this byte codes.
+
+
+
+
+Jdk (Java Development kits):-
+
+
+
+
+
+
+ Test.java===>(Source code)
+ compile==> javac Test.java
+ 
+ Compiler do the First WORKS===>test.class( dot class File)
+	
+jre jdk jvm	==> home work
+
+
+			Source code==>compiler=>bytecode(0,1 form)==>jvm==> OS===>Output
+				||
+
+			
+
+
+
+Identifire:-  Any name of the value ia called identyfire. 
+			It may be class name, method name, 
+					variable name and label name.
+					
+					
+				==>	Variable is the name of memory location
+
+
+class Test{     //test is identyfire
+public static void main(String [] args)//Main  is identifire
+{
+
+int x=10;//x is variable and it is identifire
+
+int *=10; worng
+int  a,A,a1,b3
+
+}
+}
+
+x=10;
+int x=10.0
+string s="dsd"
+flote
+long
+double
+boolean
+array
+
+
+
+= H89q0T = 
+= H89q0T = 
+
+
+									DATA TYPE:->
+									
+									Every variable has a type is called data type 
+									like int char float double;
+									
+	types of DAta type 
+
+1.Pridefine DATA TYPE:-
+DataType~~~~~~~~~~~~~~~~~~~Size
+	Byte 				8 bit	2^16=-32768 to 32767
+	int					32 bit	2^32=>2147483648 to 2147483647
+	folat				32 bit
+	char
+	double
+	boolean
+	long
+
+
+
+
+
+2.User define DAta Type
+
+Array	
+
+Array is User Define data type 
+array is homiginious data type it store continious memory locatino
+
+
+But the main disadvantage of arrays is: 
+Fixed in size that is once we created an array there is no chance of increasing or 
+decreasing the size based on our requirement that is to use arrays concept compulsory 
+we should know the size in advance which may not possible always.
+
+
+
+Single dimensional array declaration: 
+
+int [] a;  //4,5,5
+int a[];
+int []a;
+int a [5]={4,5,7,7,8,8};//invalid ==> out of range 
+All is valid 
+
+
+
+Two dimensional array declaration:
+
+
+int [5] [5] a;
+int a [] [];
+int [] a[];
+int[][] a;
+int[][]a;
+int[]a[] ;
+
+All are valid 
+
+
+Three dimensional array declaration
+
+Example: 
+int[][][] a;
+int [][][]a;
+int a[][][];
+int[] [][]a;
+int[] a[][]; All are valid.(10 ways)
+int[] []a[];
+int[][] []a;
+int[][] a[];
+int []a[][];
+int [][]a[];
+
+
+of the following declarations are valid? 
+1) int[] a1,b1;  //valid
+2) int[] a2[],b2; //valid
+3) int[] []a3,b3; //valid
+4) int[] a,[]b;  //valid
+int []a;
+int []b;
+
+
+Example:-------------->
+public class Test{ 
+public static void main(String[] args){ 	
+	int [4]a1={10,20,30};
+	int []a2={7,5,8,6,3,5,4,1,5,5};
+	
+	//first approch
+	int l=a1.length;
+	for(int a=0;a<l;a++){
+	System.out.print(a1[a]+"    ");
+	}
+	System.out.println();
+	
+	//Second Approch forEAtch loop
+	for(int p: a2){
+		System.out.print(p+"    ");
+	}		  
+}
+}
+
+0 to 7---> int x=785
+
+
+
+Element at index 0 : 10
+Element at index 1 : 20
+Element at index 2 : 30
+Element at index 3 : 40
+Element at index 4 : 50
+
+
+
+Type of variable:-
+
+Basicelly variable is two type:
+1- primitive variable
+
+Primitive variables can be used to represent primitive values(datatype).
+Example: 
+
+int x=10;
+float f=20;
+double k=254d;
+ 
+
+
+
+
+2-referance  Variable
+
+Reference variables can be used to refer objects. 
+Example: Student s=new Student(); 
+**********************************************************************************************************
+-----------------------------------------------------------------------------------------------------
+
+According to Bihaviour type of Variable
+ three type
+ 1- local variable
+ 2-instance variable
+ 3-Static variable
+ -----------------------------------------------------------------------------------------------------
+ 
+ 
+ class Test{  
+ int a=30; //Instance variable
+ static int b=40; //Static variable
+
+public static void main(String[] args){ 
+       int a=10;  //Primitive VAriable 
+     Test t=new Test(); //t is reference variable because t refer the object
+        System.out.println(t.a);
+		 System.out.println(b);
+        ystem.out.println(Test.b);
+   System.out.println(t.b);
+         System.out.println("hdjsjdhi");
+ 
+
+}
+
+}
+
+
+
+access specifier ot modifire:
+1)  public 
+2) private 
+3) protected
+4) static
+5) final 
+6) abstract
+
+method:
+methos of bolck of code its provide multiplr type of task
+example:
+suhani(){
+	system.out.println("hello");
+} //it is a method
+
+
+*********************************************************************************************************
+
+OOps
+----------
+
+object-->Any things is object 
+
+class--> Class is the blueprint(Map) of the object
+
+MetaDAta -->Data about  data is call mete data 
+ ex :we can get more information of any data this process is meta data
+
+cat-> i  already know domestic animal..
+extra informations--> 
+ ite eye is brown and its drink mailk 
+ its fevorit food Rat(Mouse)
+ 
+
+
+Abstraction:-
+it is a  first part of oops
+Hide our internal implemantation hightlight set of service is call Abstraction
+example: ATM gui screen.
+2 tv Remote function 
+
+
+Incapulation:-binding of the data is corouponding method is a single unit call Incapulation.
+
+Abstraction+ dataHiding== Incapulation
+
+advantages:
+1-easy to emplements
+2-security achivemants
+3-easy to maintain
+
+disadvantage:
+  code of length is increasing.
+
+
+
+Inhertiance (Is A Relationship):-
+it have extandes keyword 
+Superclass or Parent class or Base class property by default available in child class or sub classes is call inheritance.
+This is the most importance feature of oops.
+it provides reuseable of the code.
+
+
+type->
+single 
+multilevel
+hyircial
+
+
+multiple(Not support in java) || hybrid(Not support in java)
+    Why java won't provide support for multiple inheritance? 
+      There may be a chance of creating ambiguity problems
+
+
+HAs A Relationship:
+
+It is the combination of aggregation and composition.
+This is the most importance feature of oops.
+it provides reuseable of the code.
+
+Aggregation:-
+
+Without existing container object if there is a chance of existing contained objects such 
+type of relationship is called aggregation.
+ In aggregation objects have weak association.
+
+Example: 
+Within a department there may be a chance of several professors will work whenever 
+we are closing department still there may be a chance of existing professor object 
+without existing department object the relationship between department and professor 
+is called aggregation where the objects having weak association
+
+
+Composition: 
+Without existing container object if there is no chance of existing contained objects this type of 
+the relationship  is called composition 
+which is a strong association.
+
+Example: 
+University consists of several departments whenever university object destroys 
+automatically all the department objects will be destroyed that is without existing 
+university object there is no chance of existing dependent object hence these are 
+strongly associated and this relationship is called composition.
+
+polimorphism:
+same name different forms is call polimorphism.
+
+example:
+suhani(int x); 
+suhani(int x, float y);
+suhani(int x , int y);
+suhani(int x, double d,long l);
+
+types 
+
+overloading or Runtime Polymorphism--> methode name same argument is different 
+overriding  or Compile-time Polymorphism--> methode name same argument is also same and combination of parent and child is call overriding. 
+
+
+
+final Keyword==>
+The java final keyword can be used in many context
+If we decelar final keyword we can not modyfying .
+
+1 final method==>
+final you make any method as final, you cannot override it.
+  final void suhani(){}
+
+2 final class===>
+final you make any class as final, you cannot extends it.
+
+final class Test{}
+
+3 final variable===>
+final you make any variable as final, you cannot change the value of final variable
+
+ex 
+final int a=10;
+
+
+constructor==>
+the main use of constructor is to perform initialization of an object.
+class name and constructor name sould be same
+it is the block of coad .
+
+ex=>
+class Test{
+	Test()//This is constructor
+	{
+		//this and supper keyword
+	}
+	public static void mAin(String args[]){}
+}
+super and this===>
+its use in constructor
+The 1st line inside every constructor should be either super() or this() if we are not 
+writing anything compiler will always generate super().
+
+super====>
+The super keyword  is a reference variable 
+it  used to refer immediate parent class object.
+
+Usage of Java super Keyword
+super can be used to refer immediate parent class instance variable.
+super can be used to invoke immediate parent class method.
+super() can be used to invoke immediate parent class constructor.
+
+
+
+class Animal{  
+String color="white";  
+String color1="red";
+String color2="yellow"; 
+}  
+class Dog extends Animal{  
+String color="black";  
+void printColor(){  
+System.out.println("This is child object "+color);//prints color of Dog class  
+System.out.println("This is Parrent object "+super.color);//prints color of Animal class  
+System.out.println("This is Parrent object "+super.color);
+System.out.println("This is Parrent object "+color2);
+}  
+}  
+class TestSuper1{  
+public static void main(String args[]){  
+Dog d=new Dog();  
+d.printColor();  
+}}  
+
+
+
+
+**********************************************************************************************************
+Exception-------->
+**********************************************************************************************************
+An unwanted unexpected event that disturbs normal flow of the program is called exception.
+
+The Exception Handling in Java is one of the powerful mechanism to handle the runtime errors so that the normal flow of the application can be maintained.
+
+Example: 
+
+A%%%%%%%%%%%%%%%%%%%%%%%%%%  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%B
+TyrePunchuredException--
+
+FileNotFoundException ...etc
+
+
+TYpe of Exception---->
+1  check exception--->compile-time check  
+ex- file not found exception
+
+2  Uncheck exception---Runtime check
+ex- Airthmetic Exception
+
+--------------------------------------------------------
+How to handel exception
+--------------------------------------------------------
+using try and catch block whe can handel the exception 
+try block have resky code
+catch block have exception
+class Test { 
+public static void main(String [] args){
+	   try{  
+		   System.out.println(10/0);              
+	   } 
+	   catch(ArithmeticException e){
+		   System.out.println("Airthmetic Exception "); 
+	   }
+	   catch(Exception e){
+		   System.out.println(e);
+	   }
+}	
+}
+
+finally black>
+ it is a keyword 
+ its always excute
+ its associated wit try and catch block.
+ it main purpose cleanup the code.
+ 
+ 
+ 
+ 
+final : 
+ final is the modifier applicable for classes, methods and variables.
+ If a class declared as the final then child class creation is not possible.
+ If a method declared as the final then overriding of that method is not possible.
+ If a variable declared as the final then reassignment is not possible.
+
+
+finally: 
+ finally is the block always associated with try-catch to maintain clean up code 
+which should be executed always irrespective of whether exception raised or not 
+raised and whether handled or not handled.
+
+finalize-->
+ finalize is a method, always invoked by Garbage Collector just before destroying 
+an object to perform cleanup activities.
+
+
+
+empity--->
+
+
+
+
+**********************************************************************************************************
+MultiThreadind or MultiTasking
+
+multi + tasking 
+multi means multiple 
+tasking means work.
+
+Execute multiple task at a same time  and every task is independent is call multithreading  or multitasking
+
+ex:
+        While typing a java program in the editor we can able to listen mp3 audio songs 
+at the same time we can download a file from the net and we are send a larg file using any web sender(teligranm ,facebook ) all these tasks are 
+independent of each other and executing at a same time(simultaneously) and hence it is Process 
+based multitasking.
+ This type of multitasking is best suitable at "os level" 
+
+type of multithreading
+1. Process based multithreading
+2. Thread based multithreading

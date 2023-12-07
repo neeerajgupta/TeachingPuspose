@@ -1,0 +1,212 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: century;
+}
+
+header {
+    background-image: url("./Images/background.jpg");
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+
+}
+
+header main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    border: 3px solid black;
+    border-radius: 50%;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 30px;
+    flex: 1;
+    transition-duration: 2s;
+}
+
+.logo img:hover {
+
+    border: 3px solid brown;
+    border-radius: 50%;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 30px;
+    flex: 1;
+    transform: scale(0.5, 1);
+    transition-duration: 2s;
+    filter: grayscale(20);
+}
+
+.list-1 ul li {
+    margin-top: 40px;
+    display: inline-block;
+    margin-right: 20px;
+    list-style: none;
+
+
+
+}
+
+.list-1 ul li a {
+
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.list-1 ul li a:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid transparent;
+}
+
+.title-1 {
+    color: wheat;
+    margin-top: 200px;
+    text-align: center;
+    padding-bottom: 0px;
+    font-size: 50px;
+
+}
+
+.curicle {
+    height: 35px;
+    width: 25px;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin-top: 200px;
+    text-align: center;
+    margin-left: 600px;
+
+}
+
+.check {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 80px;
+}
+
+.checkDate {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 70px;
+    padding: 70px;
+    background-color: blanchedalmond;
+
+}
+
+.btn {
+    background-color: yellow;
+    border: 2px solid brown;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+
+}
+
+.checkDate input {
+    border: 2px solid brown;
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+    font-size: larger;
+
+}
+
+.checkDate select {
+    border: 2px solid brown;
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+.welcombar {
+    background-color: blanchedalmond;
+    padding: 50px;
+
+}
+
+.introRow {
+    column-count: 2;
+    column-gap: 10px;
+
+
+}
+
+.box1 {
+    position: relative;
+    /* display: inline-block; */
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    text-align: center;
+    background-image: url(./Images/photo\ selfi.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: blueviolet;
+
+
+}
+
+.box1 p {
+    position: absolute;
+    margin-top: 400px;
+    color: brown;
+
+}
+
+.box2 {
+    /* display: inline-block; */
+    position: relative;
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    position: relative;
+    column-count: 3;
+    column-gap: 1px;
+
+
+
+}
+
+.box2 .div1 {
+    width: 150px;
+    height: 150px;
+    margin-top: 2px;
+    display: inline-block;
+    border: 2px solid brown;
+    background-image: url("./Images/food.jpeg");
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.box2 .div2 {
+    display: inline-block;
+    /* width: 450px;
+    height: 500px; */
+    background-size: cover;
+    border: 2px solid brown;
+    background-image: url("./Images/hotel1.webp");
+    background-size: cover;
+    /* position: absolute; */
+}
+    
+.box2 .div3 {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border: 2px solid brown;
+    background-image: url("./Images/womwn\ happy.jpeg");
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 350px;
+    margin-right: 200px;
+}
