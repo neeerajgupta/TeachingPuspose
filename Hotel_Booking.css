@@ -4,6 +4,10 @@
     font-family: century;
 }
 
+body {
+    /* background-image: url("./Images/background.jpg"); */
+}
+
 header {
     background-image: url("./Images/background.jpg");
     background-size: cover;
@@ -83,130 +87,101 @@ header main {
 
 }
 
-.check {
-    margin-top: 100px;
-    text-align: center;
-    font-size: 80px;
-}
 
-.checkDate {
-    display: flex;
-    justify-content: space-between;
-
-    margin: 70px;
-    padding: 70px;
-    background-color: blanchedalmond;
+main .checkingDate {
+    padding: 10px;
+    background-color: bisque;
 
 }
 
-.btn {
-    background-color: yellow;
-    border: 2px solid brown;
+.checkingDate form {
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-around;
+}
+
+.checkingDate form input {
+    border: 3px solid brown;
     border-radius: 10px;
-    height: 40px;
-    width: 100px;
-    margin-top: 20px;
-
+    font-weight: 100;
+    font-size: 25px;
+    width: 200px;
 }
 
-.checkDate input {
-    border: 2px solid brown;
-    height: 40px;
-    width: 250px;
+.checkingDate form select {
+    border: 3px solid brown;
     border-radius: 10px;
-    font-size: larger;
-
+    font-weight: 100;
+    font-size: 25px;
+    width: 200px;
 }
 
-.checkDate select {
-    border: 2px solid brown;
-    height: 40px;
-    width: 80px;
-    border-radius: 10px;
-    font-size: larger;
+.checkingDate form .btn {
+    border: 4px solid brown;
 }
 
-.welcombar {
-    background-color: blanchedalmond;
-    padding: 50px;
-
+.card-deck {
+    padding: 20px;
+    transition: 3s;
 }
 
-.introRow {
-    column-count: 2;
-    column-gap: 10px;
-
-
+.card-deck img {
+    transition-duration: 3s;
 }
 
-.box1 {
-    position: relative;
-    /* display: inline-block; */
-    height: 500px;
-    width: 500px;
-    border: 2px solid black;
-    text-align: center;
-    background-image: url(./Images/photo\ selfi.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: blueviolet;
 
-
-}
-
-.box1 p {
-    position: absolute;
-    margin-top: 400px;
-    color: brown;
-
-}
-
-.box2 {
-    /* display: inline-block; */
-    position: relative;
-    height: 500px;
-    width: 500px;
-    border: 2px solid black;
-    position: relative;
-    column-count: 3;
-    column-gap: 1px;
-
-
-
-}
-
-.box2 .div1 {
-    width: 150px;
-    height: 150px;
-    margin-top: 2px;
-    display: inline-block;
-    border: 2px solid brown;
-    background-image: url("./Images/food.jpeg");
-    background-size: cover;
+.card-deck img:hover {
+    transform: scale(0.5, 1);
     border-radius: 50%;
-    position: absolute;
+    filter: grayscale(20);
+    transition-duration: 3s;
+    border: 5px solid black;
 }
 
-.box2 .div2 {
-    display: inline-block;
-    /* width: 450px;
-    height: 500px; */
-    background-size: cover;
-    border: 2px solid brown;
-    background-image: url("./Images/hotel1.webp");
-    background-size: cover;
-    /* position: absolute; */
+.card-deck .card:hover {
+    border: 3px solid rgb(226, 92, 92);
 }
+
+
+
+
+
+div.background {
+
+    border: 2px solid black;
+}
+
+div.transbox {
+    margin: 0px;
+    background-color: rgba(162, 112, 196, 0.349);
+    border: 1px solid black;
+    opacity: 0.9;
+}
+
+div.transbox h1 {
+    margin: 5%;
+    font-weight: bold;
+    color: yellow;
+    /* margin-bottom: 10px; */
+}
+
+
+.intero,
+.links1,
+.contact {
+    width: 33%;
+    height: 200px;
+    float: left;
+    background: black;
+    color: aliceblue;
+    padding: 10px;
+}
+.links1 a{
+    text-decoration: none;
+    color: aliceblue;
+    /* line-break: normal; */
     
-.box2 .div3 {
-    display: inline-block;
-    width: 150px;
-    height: 150px;
-    border: 2px solid brown;
-    background-image: url("./Images/womwn\ happy.jpeg");
-    background-size: cover;
-    border-radius: 50%;
-    position: absolute;
-    margin-top: 350px;
-    margin-right: 200px;
+}
+.share a{
+    font-size: large;
 }
