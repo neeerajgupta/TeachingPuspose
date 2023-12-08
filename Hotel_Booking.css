@@ -4,9 +4,7 @@
     font-family: century;
 }
 
-body {
-    /* background-image: url("./Images/background.jpg"); */
-}
+
 
 header {
     background-image: url("./Images/background.jpg");
@@ -172,16 +170,48 @@ div.transbox h1 {
     /* border: 3px solid brown; */
     border-radius: 13px;
     margin-bottom: 10px;
+    transition-duration: 2s;
    
 }
 
 
 .informationabout:hover{
     background-color: lightgray;
-    border: 1px solid brown;
+    border: 3px solid brown;
     border-radius: 13px;
     margin-bottom: 10px;
-    box-shadow: 7px 5px 10px 2px black;
+    box-shadow: 5px 5px 20px 5px black;
     
 
+}
+
+/* End---servicess */
+
+.msgNoti{
+    background-color: beige;
+    transition-duration: 2s;
+    padding: 20px;
+}
+.msgNoti:hover{
+    box-shadow: 5px 5px 20px 5px black;
+    /* transition-duration: 2s; */
+}
+
+.fields{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.inputField{
+    display: flex;
+    flex-direction: column;
+    margin: 4px 0;
+    width: calc(100% / 2 - 15px);
+}
+.inputField input{
+    border: 1px solid black;
+    border-radius:  5px;
+    font-size: 20px;
 }
