@@ -1,5 +1,5 @@
 * {
-    margin: 0px;
+    margin: 2px;
     padding: 0px;
     font-family: century;
 }
@@ -162,26 +162,15 @@ div.transbox h1 {
     margin: 5%;
     font-weight: bold;
     color: yellow;
-    /* margin-bottom: 10px; */
+  
 }
 
 
-.intero,
-.links1,
-.contact {
-    width: 33%;
-    height: 200px;
-    float: left;
-    background: black;
-    color: aliceblue;
-    padding: 10px;
-}
-.links1 a{
-    text-decoration: none;
-    color: aliceblue;
-    /* line-break: normal; */
-    
-}
-.share a{
-    font-size: large;
-}
+
+
+
+
+
+
+
+
