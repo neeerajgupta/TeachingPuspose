@@ -144,33 +144,42 @@ main .checkingDate {
 
 
 
-
+/* servicess */
 
 div.background {
-
+   
     border: 2px solid black;
+    margin: 0px;
+    background-color: rgba(206, 153, 241, 0.20);
+    border: 1px solid black;
+    opacity: 2;
 }
 
 div.transbox {
     margin: 0px;
-    background-color: rgba(162, 112, 196, 0.349);
-    border: 1px solid black;
-    opacity: 0.9;
+    opacity: 10;
 }
 
 div.transbox h1 {
     margin: 5%;
     font-weight: bold;
-    color: yellow;
-  
+    color: wheat;
+}
+
+.informationabout{
+    background-color: lightgray;
+    /* border: 3px solid brown; */
+    border-radius: 13px;
+    margin-bottom: 10px;
+   
 }
 
 
+.informationabout:hover{
+    background-color: lightgray;
+    border: 3px solid brown;
+    border-radius: 13px;
+    margin-bottom: 10px;
+    
 
-
-
-
-
-
-
-
+}
