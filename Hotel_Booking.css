@@ -215,3 +215,14 @@ div.transbox h1 {
     border-radius:  5px;
     font-size: 20px;
 }
+#pageSelector{
+    background: none;
+    color: aliceblue;
+    border: none;
+}
+#pageSelector:hover{
+    background: none;
+    color: black;
+    border: none;
+    background-color: white;
+}
