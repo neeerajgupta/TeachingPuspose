@@ -1,0 +1,342 @@
+							Java Fundamential
+							
+Java Architacture And Feture :-
+
+JAVA:-
+=> Java is oops(Object Oriented Programing ) Language.
+=> JAva plateform Independence Language.
+=> its invent 1995 (1.0 version)by sunmycro system
+=> Second Version 1996 (2.0 version)
+ 
+ 
+ FEATURE:
+ 
+ Secure(Security ) 
+ Robust(Powerfull)
+ FAst Development
+ simple
+ 
+ OOps(Abstraction,Class,Object,Incapulation,Polimorphism,Inheritance(Single inheritance,multiple inheritance,multilable,hybrid ,hirichay).
+ 
+ 
+ Multithread
+ 
+ 
+ 
+ 
+ 9) What is difference between c++ and Java ?
+Java                                                C++
+1) Java is platform independent                  C++ is platform dependent.
+2) There are no pointers in java                 There are pointers in C++.
+3) There is no operator overloading in java      C ++ has operator overloading.
+4) There is garbage collection in java           There is no garbage collection
+5) Supports multithreading                       Does’nt support multithreading
+6) There are no templates in java                 There are templates in c++
+7) There are no global variables in java          There are global variables in c++
+
+
+
+10) What is JIT compiler ?
+JIT compiler stands for Just in time compiler. JIT compiler compiles byte code in to executable code . 
+JIT a part of JVM .JIT cannot convert complete java program in to executable code it converts as and 
+when it is needed during execution.
+
+
+
+
+11) What is bytecode in java ?
+When a javac compiler compiler compiles a class it generates .class file. This .class file contains set of 
+instructions called byte code. Byte code is a machine independent language and contains set of 
+instructions which are to be executed only by JVM. JVM can understand this byte codes.
+
+
+
+
+Jdk (Java Development kits):-
+
+
+
+
+
+
+ Test.java===>(Source code)
+ compile==> javac Test.java
+ 
+ Compiler do the First WORKS===>test.class( dot class File)
+	
+jre jdk jvm	==> home work
+
+
+			Source code==>compiler=>bytecode(0,1 form)==>jvm==> OS===>Output
+				||
+
+			
+
+
+
+Identifire:-  Any name of the value ia called identyfire. 
+			It may be class name, method name, 
+					variable name and label name.
+					
+					
+				==>	Variable is the name of memory location
+
+
+class Test{     //test is identyfire
+public static void main(String [] args)//Main  is identifire
+{
+
+int x=10;//x is variable and it is identifire
+
+int *=10; worng
+int  a,A,a1,b3
+
+}
+}
+
+x=10;
+int x=10.0
+string s="dsd"
+flote
+long
+double
+boolean
+array
+
+
+
+= H89q0T = 
+= H89q0T = 
+
+
+									DATA TYPE:->
+									
+									Every variable has a type is called data type 
+									like int char float double;
+									
+	types of DAta type 
+
+1.Pridefine DATA TYPE:-
+DataType~~~~~~~~~~~~~~~~~~~Size
+	Byte 				8 bit	2^16=-32768 to 32767
+	int					32 bit	2^32=>2147483648 to 2147483647
+	folat				32 bit
+	char
+	double
+	boolean
+	long
+
+
+
+
+
+2.User define DAta Type
+
+Array	
+
+Array is User Define data type 
+array is homiginious data type it store continious memory locatino
+
+
+But the main disadvantage of arrays is: 
+Fixed in size that is once we created an array there is no chance of increasing or 
+decreasing the size based on our requirement that is to use arrays concept compulsory 
+we should know the size in advance which may not possible always.
+
+
+
+Single dimensional array declaration: 
+
+int [] a;  //4,5,5
+int a[];
+int []a;
+int a [5]={4,5,7,7,8,8};//invalid ==> out of range 
+All is valid 
+
+
+
+Two dimensional array declaration:
+
+
+int [5] [5] a;
+int a [] [];
+int [] a[];
+int[][] a;
+int[][]a;
+int[]a[] ;
+
+All are valid 
+
+
+Three dimensional array declaration
+
+Example: 
+int[][][] a;
+int [][][]a;
+int a[][][];
+int[] [][]a;
+int[] a[][]; All are valid.(10 ways)
+int[] []a[];
+int[][] []a;
+int[][] a[];
+int []a[][];
+int [][]a[];
+
+
+of the following declarations are valid? 
+1) int[] a1,b1;  //valid
+2) int[] a2[],b2; //valid
+3) int[] []a3,b3; //valid
+4) int[] a,[]b;  //valid
+int []a;
+int []b;
+
+
+Example:-------------->
+public class Test{ 
+public static void main(String[] args){ 	
+	int [4]a1={10,20,30};
+	int []a2={7,5,8,6,3,5,4,1,5,5};
+	
+	//first approch
+	int l=a1.length;
+	for(int a=0;a<l;a++){
+	System.out.print(a1[a]+"    ");
+	}
+	System.out.println();
+	
+	//Second Approch forEAtch loop
+	for(int p: a2){
+		System.out.print(p+"    ");
+	}		  
+}
+}
+
+0 to 7---> int x=785
+
+
+
+Element at index 0 : 10
+Element at index 1 : 20
+Element at index 2 : 30
+Element at index 3 : 40
+Element at index 4 : 50
+
+
+
+Type of variable:-
+
+Basicelly variable is two type:
+1- primitive variable
+
+Primitive variables can be used to represent primitive values(datatype).
+Example: 
+
+int x=10;
+float f=20;
+double k=254d;
+ 
+
+
+
+
+2-referance  Variable
+
+Reference variables can be used to refer objects. 
+Example: Student s=new Student(); 
+**********************************************************************************************************
+-----------------------------------------------------------------------------------------------------
+
+According to Bihaviour type of Variable
+ three type
+ 1- local variable
+ 2-instance variable
+ 3-Static variable
+ -----------------------------------------------------------------------------------------------------
+ 
+ 
+ class Test{  
+ int a=30; //Instance variable
+ static int b=40; //Static variable
+
+public static void main(String[] args){ 
+       int a=10;  //Primitive VAriable 
+     Test t=new Test(); //t is reference variable because t refer the object
+        System.out.println(t.a);
+		 System.out.println(b);
+        ystem.out.println(Test.b);
+   System.out.println(t.b);
+         System.out.println("hdjsjdhi");
+ 
+
+}
+
+}
+
+
+
+access specifier ot modifire:
+1)  public 
+2) private 
+3) protected
+4) static
+5) final 
+6) abstract
+
+
+********************************************************************************************************************************
+METHOD:
+
+methos of bolck of code its provide multiple type of task
+example:
+suhani(){ //Without Arguments MEthod
+	system.out.println("hello");
+} //it is a method
+
+
+Rule No 1:--> Static Method no need to object directly call the method Name when we are calling static Area.
+   
+   class MethodProgram{
+	public static void methodOne(){ //Without Arguments or without signature Static method
+		System.out.println("Static Method  One");
+	}
+	
+	public static void methodTwo(int a ,int b){ //static method With Arguments
+		System.out.println(" Static Method  Two: " +( a+b));//concatination 
+	}
+	
+	public static void main(String [] args){
+		System.out.println("This is Static Method");
+		    methodOne(); //
+			methodTwo(100,200);	
+		
+	}
+}
+
+
+
+Rule No 2:--> We can call the normal method using object 
+
+
+class MethodProgram{
+	
+	public  void methodone(int a ,int b){ //Normal method With Arguments
+		System.out.println(" Normal Method  : With Arguments " +( a+b));//concatination 
+	}
+	public  void methodone(){ //Normal method WithOut Arguments
+		System.out.println(" Normal Method   without Arguments: " );//concatination 
+	}
+	
+	public static void main(String [] args){
+		System.out.println(This is Normal Method calling by Object:-->");
+		MethodProgram mt=new MethodProgram();
+		    mt.methodone(200,200);
+			mt.methodone();
+		
+		
+	}
+}
+
+
+
+

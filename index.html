@@ -14,7 +14,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
-
+  
+    
+    <script src="demo.js" defer></script>
 </head>
 
 <body>
@@ -30,7 +32,19 @@
                     <li class="active"><a href="#">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
-                    <li><a href="./studing in java.txt">Studying</a></li>
+                    <!-- <li><a href="./studing in java.txt">Studying</a></li> -->
+                
+                    <li>  
+                        <form id="redirectForm">
+                            <select id="pageSelector" onchange="redirectToPage()">
+                              <option value="" disabled selected>Subject</option>
+                              <option value="JAVA">JAVA Fundamential</option>
+                              <option value="Program">JAVA-Program</option>
+                              <option value="HTML&CSS">HTML&CSS</option>
+                            </select>
+                          </form>
+                            
+                    </li>
                     <li><a href="#blog">Blogs</a></li>
                     <li><a href="#contact">Contact </a></li>
 
@@ -110,7 +124,7 @@
             <div class="card">
                 <img class="card-img-top" src="./Images/womwn happy.jpeg" alt="Card image cap">
                 <div class="card-body">
-                    <h3 class="card-title" align="center">Suhani Gupta</h3>
+                    <h3 class="card-title" align="center">Suhani Shaw</h3>
                     <p class="card-text">I am B.C.A Student from Kolkata My collage name is Dinabandhu Andrews Institute
                         of Technology and Management(DAITM), Kolkata . i am allmost stydying <b>Java</b>. </p>
                 </div>
@@ -124,10 +138,10 @@
                     <h3 class="card-title" align="center">Dheeraj Gupta</h3>
                     <p class="card-text">I am A B.sc Studen from Lucknow . My collage name is BBDU Lucknow and i am
                         coach of Cricket Team . i am allmost stydying <b>Java</b></p>
-                        <dt>
-                            <dl>Mob:</dl>
-                            <dd>9616343592</dd>
-                        </dt>
+                    <dt>
+                        <dl>Mob:</dl>
+                    <dd>9616343592</dd>
+                    </dt>
                 </div>
                 <div class="card-footer">
                     <small class="text-muted">Last updated 3 mins ago</small>
@@ -155,21 +169,31 @@
                 <div class="row " style="color: black;">
                     <div class="col informationabout">
                         <h2 align="center" class="bi bi-emoji-kiss">Weddings</h2>
-                        <p>विवाह, जिसे शादी भी कहा जाता है, दो लोगों के बीच एक सामाजिक या धार्मिक मान्यता प्राप्त मिलन है जो उन लोगों के बीच, साथ ही उनके और किसी भी परिणामी जैविक या दत्तक बच्चों तथा समधियों के बीच अधिकारों और दायित्वों को स्थापित करता है। एक विवाह के समारोह को विवाह उत्सव (वेडिंग) कहते है।</p>
+                        <p>विवाह, जिसे शादी भी कहा जाता है, दो लोगों के बीच एक सामाजिक या धार्मिक मान्यता प्राप्त मिलन
+                            है जो उन लोगों के बीच, साथ ही उनके और किसी भी परिणामी जैविक या दत्तक बच्चों तथा समधियों के
+                            बीच अधिकारों और दायित्वों को स्थापित करता है। एक विवाह के समारोह को विवाह उत्सव (वेडिंग)
+                            कहते है।</p>
                     </div>
                     <div class="col informationabout">
                         <h2 align="center" class="bi bi-camera-reels-fill">Events</h2>
-                        <p>इवेंट मैनेजर किसी भी आयोजन के आरंभ से अंत तक होने वाले हर कार्यक्रम, हर पड़ाव का सुचारु संचालन करते हैं। इवेंट मैनेजमेंट के अंतर्गत फैशन शो, संगीत समारोह, विवाह समारोह, थीम पार्टी, प्रदर्शनी, कॉर्पोरेट सेमिनार, प्रोडक्ट लॉन्चिंग तथा फिल्मों के प्रीमियर आदि प्रोग्राम आते हैं।</p>
+                        <p>इवेंट मैनेजर किसी भी आयोजन के आरंभ से अंत तक होने वाले हर कार्यक्रम, हर पड़ाव का सुचारु
+                            संचालन करते हैं। इवेंट मैनेजमेंट के अंतर्गत फैशन शो, संगीत समारोह, विवाह समारोह, थीम पार्टी,
+                            प्रदर्शनी, कॉर्पोरेट सेमिनार, प्रोडक्ट लॉन्चिंग तथा फिल्मों के प्रीमियर आदि प्रोग्राम आते
+                            हैं।</p>
                     </div>
                     <div class="w-100"></div>
                     <div class="col informationabout">
                         <h2 align="center " class="bi bi-fire">Conferences</h2>
-                        संगोष्ठी (conference) लोगों का सम्मिलन (meeting) है जिसमें किसी विषय पर विचार-विमर्श एवं विचार विनिमय किया जाता है।
-                        <p>टेलीकांफ्रेंसिंग दो या दो से अधिक लोगों के बीच संचार करने के लिए एक दूरसंचार उपकरण का उपयोग है। इसमें फ़ोन पर या वीडियो चैट सॉफ़्टवेयर का उपयोग करके कॉन्फ़्रेंस कॉल शामिल हो सकती है। यह पेशेवरों के लिए व्यक्तिगत रूप से मिले बिना वस्तुतः जुड़ने का एक तरीका है। </p>
+                        संगोष्ठी (conference) लोगों का सम्मिलन (meeting) है जिसमें किसी विषय पर विचार-विमर्श एवं विचार
+                        विनिमय किया जाता है।
+                        <p>टेलीकांफ्रेंसिंग दो या दो से अधिक लोगों के बीच संचार करने के लिए एक दूरसंचार उपकरण का उपयोग
+                            है। इसमें फ़ोन पर या वीडियो चैट सॉफ़्टवेयर का उपयोग करके कॉन्फ़्रेंस कॉल शामिल हो सकती है।
+                            यह पेशेवरों के लिए व्यक्तिगत रूप से मिले बिना वस्तुतः जुड़ने का एक तरीका है। </p>
                     </div>
                     <div class="col informationabout">
                         <h2 align="center" class="bi bi-person-hearts">Culture</h2>
-                        <p>संस्कृति किसी समाज में गहराई तक व्याप्त गुणों के समग्र स्वरूप का नाम है, जो उस समाज के सोचने, विचारने, कार्य करने के स्वरूप में अन्तर्निहित होता है। यह 'कृ' (करना) धातु से बना है।</p>
+                        <p>संस्कृति किसी समाज में गहराई तक व्याप्त गुणों के समग्र स्वरूप का नाम है, जो उस समाज के सोचने,
+                            विचारने, कार्य करने के स्वरूप में अन्तर्निहित होता है। यह 'कृ' (करना) धातु से बना है।</p>
                     </div>
                 </div>
             </div>
@@ -189,17 +213,19 @@
     <div id="blog" class="blog mb-4 p-5">
         <h1 align="center">My Blogs</h1>
         <div>
-            <p>एक नियमित रूप से अपडेट की जाने वाली वेबसाइट या वेब पेज, आमतौर पर एक व्यक्ति या छोटे समूह द्वारा चलाया जाता है, जो अनौपचारिक या संवादी शैली में लिखा जाता है। उदाहरण – मैं दक्षिण भारतीय फिल्म उद्योग से संबंधित ब्लॉग पढ़ता हूं</p>
+            <p>एक नियमित रूप से अपडेट की जाने वाली वेबसाइट या वेब पेज, आमतौर पर एक व्यक्ति या छोटे समूह द्वारा चलाया
+                जाता है, जो अनौपचारिक या संवादी शैली में लिखा जाता है। उदाहरण – मैं दक्षिण भारतीय फिल्म उद्योग से
+                संबंधित ब्लॉग पढ़ता हूं</p>
         </div>
 
 
     </div>
 
-<!-- Blogs Options Ends -->
+    <!-- Blogs Options Ends -->
 
 
 
-<hr>
+    <hr>
 
     <!-- compalins Form Start -->
 
