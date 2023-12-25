@@ -3,5 +3,6 @@ function redirectToPage() {
     if (selectedPage) {
       window.location.href = selectedPage;
     }
-  }
 
+    
+  }
