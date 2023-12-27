@@ -16,3 +16,19 @@ class MethodProgram{
 	
 	
 }
+
+
+
+Main Method->  
+
+1. The order of modifiers is not important that is instead of public static we can 
+take static public.
+2. We can declare string[] in any acceptable form 
+o String[] args
+o String []args
+o String args[]
+3. Instead of args we can use any valid java identifier.
+4. We can replace string[] with var-arg parameter. 
+Example: main(String... args)
+5. main() method can be declared with the following modifiers. 
+final, synchronized, strictfp.
