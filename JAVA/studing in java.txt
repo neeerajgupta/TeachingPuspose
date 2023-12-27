@@ -144,6 +144,11 @@ decreasing the size based on our requirement that is to use arrays concept compu
 we should know the size in advance which may not possible always.
 
 
+Rule:--
+		1)- Size is fix otherwise we will get compile time errors.
+		2)- It is legel to difine size zero(0)
+		3)- Negitive value is not declaration in array Size
+		4)- 
 
 Single dimensional array declaration: 
 
@@ -276,6 +281,9 @@ public static void main(String[] args){
 
 
 access specifier ot modifire:
+
+Access modifiers are keywords that can be used to control the visibility of fields, methods, and constructors in a class. 
+
 1)  public 
 2) private 
 3) protected

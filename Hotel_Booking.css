@@ -215,16 +215,19 @@ div.transbox h1 {
     border-radius:  5px;
     font-size: 20px;
 }
-#pageSelector{
-    background: none;
-    color: aliceblue;
-    border: none;
-}
-#pageSelector:hover{
-    background: none;
-    color: black;
-    border: none;
-    background-color: white;
+.subMenu1{
+    display: none;
 }
 
+.list-1 ul li:hover .subMenu1{
+    display: block;
+    position: absolute;
+    margin-top: 2px; 
+    margin-left: -15px;
+    /* background-color: green; */
+}
+.list-1 ul li:hover .subMenu1 ul li{
+    display: block;
+    margin: 10px;
+}
 

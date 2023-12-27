@@ -14,16 +14,5 @@ class MethodProgram{
 		System.out.println(" Normal Method  Three without Arguments: " );//concatination 
 	}
 	
-	public static void main(String [] args){
-		System.out.println("This is Static Method");
-		    methodOne(); //
-			methodTwo(100,200);
-			
-			System.out.println("This is Normal Method calling by Object:-->");
-		MethodProgram mt=new MethodProgram();
-		    mt.methodthree(200,200);
-			mt.methodthree();
-		
-		
-	}
+	
 }
