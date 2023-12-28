@@ -1,13 +1,15 @@
 class Test{
-	public static void methodOne(){ //Without Arguments or without signature
-		System.out.println("Method  One");
-	}
-	
 	public static void main(String [] args){
-		System.out.println("Hello JAVA");
-		
-		Test t=new Test();
-		t.methodOne();
-		methodOne(); //
+		 
+   // 1)-PRE increments---(x=++z)
+   int x=10;
+   System.out.println("preeIncrement OperatoR :") ; 
+    System.out.println(++x);  //1+10===>10
+   
+//	2)-Post increments---(x=z++)");
+	int y=20;
+	 System.out.println("PostIncrement OperatoR :") ; 
+    System.out.println(y++);//20 
+ System.out.println(y);	//20 -->+1==21
 	}
 }

@@ -1,0 +1,44 @@
+     Fundamentals
+1-  JAva And its Feature
+2)- c++ v/s java
+3)- JVM and JRE Jdk
+3)- Identifire & its Rule
+4)- Reserved words
+5)- Data Types with program and its Type
+6)- variables and its Type 
+7)-	Methods	and its rule
+
+
+
+
+
+						 OPERATORS & ASSIGNMENTS
+************************************************************************************************						 
+1)---> 		increment & decrement operators				 
+
+Increment OperatoR   
+    1)-PRE increments---(x=++z)
+	2)-Post increments---(x=z++)
+	
+Decrements OperatoR   
+    1)-PRE increments---(x=++z)
+	2)-Post increments---(x=z++)	
+	
+	ex+-->class Test{
+	public static void main(String [] args){	 
+   // 1)-PRE increments---(x=++z)
+   int x=10;
+   System.out.println("preeIncrement OperatoR :") ; 
+    System.out.println(++x);  //1+10===>10
+ 
+//	2)-Post increments---(x=z++)");
+	int y=20;
+	 System.out.println("PostIncrement OperatoR :") ; 
+    System.out.println(y++);//20 
+ System.out.println(y);	//20 -->+1==21
+	}
+}
+	
+	
+2)---->	
+	
