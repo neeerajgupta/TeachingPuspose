@@ -13,6 +13,26 @@
 
 
 						 OPERATORS & ASSIGNMENTS
+	Agenda: 
+1. increment & decrement operators
+2. arithmetic operators
+3. string concatenation operators
+4. Relational operators
+5. Equality operators
+6. instanceof operators
+7. Bitwise operators
+8. Short circuit operators 
+9. type cast operators
+10. assignment operator
+11. conditional operator
+12. new operator
+13. [ ] operator
+14. Precedence of java operators
+15. Evaluation order of java operands 
+16. new Vs newInstance( )
+17. instanceof Vs isInstance( )
+18. ClassNotFoundException Vs NoClassDefFoundError
+
 ************************************************************************************************						 
 1)---> 		increment & decrement operators				 
 
@@ -42,3 +62,40 @@ Decrements OperatoR
 	
 2)---->	
 	
+	
+************************************************************************************************	
+	AirthMetic Operaors
+	
+	. If we apply any Arithmetic operation b/w 2 variables a & b ,
+the result type is always max(int , type of a , type of b)
+	
+	(+,-,*,/,%)
+	
+	ex a+b;
+	   40+50;
+	   45*20;
+	   
+	   
+	   prog==>
+	   class Test{
+	public static void main(String [] args){
+		int a=20;
+        float f=30;		
+    System.out.println(a+f);//50.0
+ 
+	}
+}
+	   h/w
+	   write a java program to print the value using all primitive datatype with airthmetic operaor? 
+	   
+************************************************************************************************
+string concatenation operators
+
+
+1)--The only overloaded operator in java is ' + ' operator some times it access 
+arithmetic addition operator & some times it access String concatenation 
+operator. 
+2. If acts as one argument is String type , then '+' operator acts as concatenation 
+and If both arguments are number type , then operator acts as arithmetic 
+operator
+

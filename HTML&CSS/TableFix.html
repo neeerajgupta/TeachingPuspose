@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+       <style>
+/* (A) TABLE WRAPPER */
+#demoCW { overflow: auto; }
+ 
+/* (B) STICKY HEADERS */
+#demoCT th {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+}
+ 
+/* (X) COSMETICS - NOT IMPORTANT */
+#demoCT th, #demoCT td {
+  font-size: 20px;
+  padding: 10px;
+  text-align: left;
+  min-width: 300px;
+}
+#demoCT th { background: #ffebec; }
+#demoCT td { background: #e4ebff; }
+</style>
+    </style>
+</head>
+<body>
+<div id="demoCW"><table id="demoCT">
+  <tr>
+    <th>Head</th>
+    <td>Cell</td><td>Cell</td><td>Cell</td>
+  </tr>
+  <tr>
+    <th>Head</th>
+    <td>Cell</td><td>Cell</td><td>Cell</td>
+  </tr>
+</table></div>
+</div>
+
+</body>
+</html>
