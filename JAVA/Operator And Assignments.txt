@@ -161,3 +161,35 @@ class Test{
  
 	}
 }
+************************************************************************************************
+5. Equality operators(==,!=)
+
+we can apply equality operators for every primitive type including boolean type 
+also
+
+**************************************************************************************************
+Instanceof--->
+
+. We can use the instanceof operator to check whether the given an object is 
+perticular type or not
+
+// Java Program to Illustrate instanceof Keyword
+
+// Importing required I/O classes
+import java.io.*;
+
+// Main class
+class GFG {
+	public static void main(String[] args)
+	{
+			int a=2;
+			int b=20
+			int c=24
+		
+		System.out.println( a*b/c-a+b);//  2*20/24-2+20
+										//40/24-2+20
+										//1-2+20
+										//1-22
+										//-21
+	}
+}
