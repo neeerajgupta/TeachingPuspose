@@ -36,6 +36,21 @@ iv. For each
 	Flow control describes the order in which all the statements will be executed at run 
 time.
 
+if()--> true or false
+
 
 if-else:
 		syntex:--
+		
+	 class Test{
+		 public static void main(String nrreakl[]){
+			int a=10;
+		if(a%10==0){  //10%10==0
+			System.out.println("suhani");
+		    }
+		else{
+			System.out.println("Devanand");
+			}			
+		 }
+	 }
+				
