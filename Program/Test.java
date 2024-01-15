@@ -1,15 +1,13 @@
  class Test{
 		 public static void main(String nrreakl[]){
-			int x=280; //
-			int a=50;
-		if((x>1 && x<20) ||(a>30) ){  //20==21 //false
-			System.out.println("suhani");
-		    }
-		else{
+			 int a=10,b=20;
+			while(a<b){
 			System.out.println("Devanand");
-			}			
+		
+			}	
+			System.out.println("hi");
+			
 		 }
 	 }
 	 
-	 //x>1 and x<20 or a>30 print suhani
-	 //deva
+	 
