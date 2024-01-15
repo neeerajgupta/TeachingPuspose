@@ -58,5 +58,119 @@ if-else:
 				
 				
 *************************************************************************************************
-While Loop	
+Interation===> one by one or step by step get the data.
+
+
+While Loop--->
+=========== 
+When we dont no no of Interation then we shoud go for While Loop.
+while Loop acept only boolean Value.	
+
+Ex=     while(true){
+			System.out.println("Devanand");
+			break;
+			}	
+			System.out.println("helli:");
+					
+					
+ class Test{
+		 public static void main(String nrreakl[]){
+			while(1){
+			System.out.println("Devanand");
+			break;
+			}	
+			System.out.println("Devanand");
 			
+		 }
+	 }
+	 
+	1  while(true){
+			System.out.println("Devanand");
+			}	
+			System.out.println("helli:"); // //only devenand infinite
+			 
+	2 while(false){
+			System.out.println("Devanand");
+			}	
+			System.out.println("helli:"); //Hello
+	
+			int a=10,b=20;
+	3 while(a<b){
+			System.out.println("Devanand"); //devanand infinite
+			}	
+			System.out.println("helli:");
+			
+			final int a=10,b=20;
+	4 while(a<b){
+			System.out.println("Devanand");
+			}	
+			System.out.println("helli:");
+*************************************************************************************************	
+Do-while==>
+
+If we want to execute loop body at least once then we should go for do-while.
+
+
+Synetx==>
+
+ do{
+	------
+	--------	
+ }while(b);
+			
+ class Test{
+		 public static void main(String nrreakl[]){
+			 int a=10,b=20;
+			do{
+			System.out.println("hi  ");
+			
+			}
+			while(a<b);
+			
+			System.out.println("hi");
+		 }
+	 }
+	 
+	 
+	  class Test{
+		 public static void main(String nrreakl[]){
+			 int a=10,b=20;
+			do{
+			System.out.println("hi  "+ a);
+			a++;
+			}
+			while(a>b);
+			
+			System.out.println("hi");
+		 }
+	 }
+	 
+//Without curlibreases	do have only one statements  
+	  class Test{
+		 public static void main(String nrreakl[]){
+			 int a=10,b=20;
+			do
+			System.out.println("hi  "+ a);
+			
+			
+			while(a<b);
+			
+			System.out.println("hi");
+		 }
+	 }
+	 
+	 
+	//If we use do-while loop semicolon is mandeateroryin while conditions
+	  class Test{
+		 public static void main(String nrreakl[]){
+			 int a=10,b=20;
+			do{
+			System.out.println("hi  "+ a);
+			}
+			
+			while(a<b);
+			
+			System.out.println("hi");
+		 }
+	 }
+	 
