@@ -1,0 +1,7 @@
+Inheritance
+==>
+
+Rule no 1->
+
+1- Child class can be hold Parent class praperty
+2- parrent class can not be hold child class praperty
