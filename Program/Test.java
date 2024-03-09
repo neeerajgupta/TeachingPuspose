@@ -1,17 +1,10 @@
  class Test{
-		 public static void main(String nrreakl[]){
-			 
-		Parrent p=new Parrent();
-		p.m2();
-		//p.m1();
+		 public  void main(String nrreakl[]){
 		
-		Child c=new Child();
-		c.m1();
-		c.m2();
-		
+		//Child c=new Parrent();
 		
 		Parrent cp=new Child();
-		
+		cp.m1();
 
 			
 		 }

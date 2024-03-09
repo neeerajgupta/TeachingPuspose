@@ -1,4 +1,6 @@
 Inheritance
+Is A relationship
+
 ==>
 
 Rule no 1->
@@ -9,3 +11,36 @@ Rule no 1->
 h/w
 parrent calulation plus and minus
 child * and /
+
+
+Type of Inhertance
+
+
+1.Single
+2.multilevel
+3.hierachical
+4.multipl
+5.hybrid
+
+
+
+HAS-A relationship:
+-----------------------------------------------------------------------------------
+
+1. HAS-A relationship is also known as composition (or) aggregation.
+2. There is no specific keyword to implement HAS-A relationship but mostly we 
+   can use new operator.
+3. The main advantage of HAS-A relationship is reusability
+
+
+Composition  :
+-------------------------------
+Without existing container object if there is no chance of existing contained objects then 
+the relationship between container object and contained object is called composition 
+which is a strong association
+
+
+Aggregation:
+-------------------------------
+Without existing container object if there is a chance of existing contained objects such 
+type of relationship is called aggregation. In aggregation objects have weak association.

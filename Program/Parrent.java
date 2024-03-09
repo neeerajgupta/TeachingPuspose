@@ -1,6 +1,6 @@
 class Parrent{
-	public static void m2(){
-		System.out.println("I am Mummy:");
+	public  void m1(){
+		System.out.println("I am Suhani123 :");
 	}
 
 }
