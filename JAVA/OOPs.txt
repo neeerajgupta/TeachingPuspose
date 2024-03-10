@@ -49,3 +49,22 @@ type of relationship is called aggregation. In aggregation objects have weak ass
 
 Method signature
 ------------------
+In java, method signature consists of name of the method followed by argument types
+
+Example: public static void methodOne(iny a ,int b){}
+
+			 methodOne(int a ,int b) 
+					  --------------> //This is method signature
+			 
+ In java return type is not part of the method signature.
+ Compiler will use method signature while resolving method calls.
+
+			class Test {
+			public void m1(double d) { }
+			public void m2(int i) { }
+			public static void main(String ar[]) {
+			 Test t=new Test();
+			 t.m1(10.5);
+			 t.m2(10);
+			}
+			} 
