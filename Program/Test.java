@@ -1,13 +1,14 @@
- class Test{
-		 public  void main(String nrreakl[]){
-		
-		//Child c=new Parrent();
-		
-		Parrent cp=new Child();
-		cp.m1();
+class Test {
+     static void  print(int x) {
+        System.out.println("Printing integer: " + x);
+    }
+   static void print(double y) {
+        System.out.println("Printing double: " + y);
+    }
+    public static void main(String[] args) {
+        Test demo = new Test();
+        demo.print(5); // Compiler uncertainty: Which method to invoke?
+    }
+}
 
-			
-		 }
-	 }
-	 
 	 

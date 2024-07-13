@@ -68,3 +68,11 @@ Example: public static void methodOne(iny a ,int b){}
 			 t.m2(10);
 			}
 			} 
+			
+			
+***********************************************************************************
+
+Polymorphism---> Same name Different Form is call Polymorphis
+				abs();
+				abs(int a,);
+				abs(inta ,int b)
